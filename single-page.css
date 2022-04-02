@@ -1,0 +1,356 @@
+:root {
+    font-family: 'Arial';
+    color: #868686;
+}
+
+p {
+  font-size: 13px;
+  line-height: 1.8;
+}
+
+a {
+  color: #7C8F4F;
+  font-size: 13px;
+}
+
+.inner-container {
+  padding-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+}
+
+.main-text-container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  margin-top: 40px;
+}
+
+.mini-hr {
+  width: 6%;
+  background-color: #328466;
+  border: none;
+  border-radius: 2px;
+  height: 2px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.long-hr {
+  background-color: #3D7461;
+  border: none;
+  height: 1px;
+  margin-top: 45px;
+  margin-bottom: 15px;
+}
+
+.dark-green {
+  color: #008e55;
+}
+
+.bank-title-text {
+  color: #00925E;
+  font-weight: 900;
+  font-size: 30px;
+}
+
+.trademark {
+  color: #00925E;
+  padding-left: 2px;
+  padding-bottom: 2px;
+  font-size: 12px;
+}
+
+.bank-icon {
+  margin-right: 5px;
+}
+
+.bank-title-container {
+  display: flex;
+  align-items: center;
+}
+
+.careers-button {
+  background-color: #E87301;
+  color: #ffffff;
+  text-align: center;
+  padding: 6px 15px 6px 15px;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.careers-button:hover {
+  background-color: #ee8720;
+}
+
+#careers-button-container {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.header-image-container {
+  padding-top: 20px;
+}
+
+.header-image {
+  display: block;
+  width: 100%;
+}
+
+#investment-container {
+  margin-top: 40px;
+}
+
+.large-subtitle {
+  font-size: 22px;
+  color: #198961;
+}
+
+.large-subtitle-container {
+  text-align: center;
+}
+
+.small-subtitle {
+  font-size: 18px;
+  color: #198961;
+  padding-bottom: 5px;
+  padding-top: 10px;
+}
+
+.small-subtitle-container {
+  width: 50%;
+}
+
+.small-subtitle-row {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.border-right {
+  position: relative;
+}
+
+.border-right:after {
+  content: "";
+  background: rgb(206, 206, 206);
+  position: absolute;
+  bottom: 3%;
+  right: 0;
+  height: 94%;
+  width: 1px;
+}
+
+.no-margin-bottom {
+  margin-bottom: 0px;
+}
+
+.no-margin-top {
+  margin-top: 0px;
+}
+
+.padding-right {
+  padding-right: 30px;
+}
+
+.padding-left {
+  padding-left: 30px;
+}
+
+.home-loans-header {
+  background-color: #00955E;
+  color: #ffffff;
+  text-align: center;
+  font-size: 18px;
+  padding: 10px;
+}
+
+.home-loans-text {
+  background-color: #EBF7F5;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.testimonial-container {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.testimonial-item {
+  max-width: 32%;
+  min-width: 120px;
+}
+
+.testimonial-image {
+  width: 50%;
+  min-width: 120px;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-bottom: 20px;
+  max-width: 175px;
+}
+
+.testimonial-text {
+  font-size: 13px;
+  font-style: italic;
+  padding-bottom: 20px;
+  text-align: center;
+  line-height: 1.8;
+}
+
+.testimonial-caption {
+  color: #198961;
+  font-size: 13px;
+  text-align: center;
+  line-height: 1.8;
+}
+
+.testimonial-text-container {
+  padding-bottom: 10px;
+  text-align: center;
+  min-height: 8em;
+}
+
+.testimonial-caption-container {
+  text-align: center;
+}
+
+.side-testimonial {
+  width: 16%;
+}
+
+.side-testimonial-image {
+  width: 100%;
+  min-width: 120px;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-bottom: 20px;
+  max-width: 175px;
+}
+
+.footer-text {
+  font-size: 11px;
+  line-height: 1.3;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.footer-link {
+  color: #868686;
+}
+
+.footer-navigation {
+  color: #000000;
+  font-size: 10px;
+  text-decoration: none;
+}
+
+.social-icon {
+  width: 3%;
+  min-width: 20px;
+  max-width: 35px;
+  cursor: pointer;
+  padding-right: 2px;
+}
+
+.social-icon:hover {
+  opacity: 0.8;
+}
+
+.footer-navigation-container {
+  margin-top: 30px;
+}
+
+.icon-credit {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 775px) {
+    h1 {
+        color: red;
+    }
+    .testimonial-container {
+      display: flex;
+      flex-direction: column;
+      max-width: 75%;
+      justify-content: center;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .testimonial-item {
+      max-width: 100%;
+      justify-content: center;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .side-testimonial {
+      width: 100%;
+    }
+    .testimonial-image {
+      max-width: 100%;
+      width: 150px;
+    }
+    .testimonial-text-container {
+      min-height: 3em;
+      max-width: 75%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .testimonial-caption-container {
+      padding-bottom: 15px;
+      margin-bottom: 15px;
+      max-width: 75%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .home-loans-text {
+      background-color: #EBF7F5;
+      padding: 10px;
+    }
+    .small-subtitle-container {
+      width: 100%;
+    }
+    
+    .border-right:after {
+      content: "";
+      background: #ffffff;
+      bottom: 3%;
+      right: 0;
+      height: 94%;
+      width: 0px;
+    }
+    
+    .small-subtitle-row {
+      display: flex;
+      flex-direction: column;
+      margin-top: 0px;
+      margin-bottom: 0px;
+    }
+    
+    .padding-left {
+      padding: 0px;
+    }
+    
+    .small-subtitle-container {
+      border-bottom: 1px solid rgb(202, 202, 202);
+      padding-bottom: 20px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+
+    .mini-hr {
+      width: 20%;
+    }
+
+}
